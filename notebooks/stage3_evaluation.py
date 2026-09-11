@@ -69,7 +69,7 @@ def construct_complexes(validated_csv, passed_pdb_dir, output_dir):
         except:
             print(f"[WARN] Failed to construct complex for {row['candidate_id']}")
 
-    print(f"✓ Constructed {len(df)} complexes")
+    print(f"[OK] Constructed {len(df)} complexes")
     return df
 
 df_complexes = construct_complexes(
@@ -101,7 +101,7 @@ def predict_binding_affinity(complexes_dir):
         })
 
     df_results = pd.DataFrame(results)
-    print(f"✓ PRODIGY: {len(results)} predictions complete")
+    print(f"[OK] PRODIGY: {len(results)} predictions complete")
     return df_results
 
 df_prodigy = predict_binding_affinity("stage3_evaluation/complexes")
@@ -191,7 +191,7 @@ with open("results/pipeline_final.json", 'w') as f:
     }
     json.dump(final, f, indent=2)
 
-print(f"\n✅ Stage 3 Complete: Pipeline finished!")
+print(f"\n[SUCCESS] Stage 3 Complete: Pipeline finished!")
 print(f"Outputs:")
 print(f"  - stage3_evaluation/composite_scores.csv")
 print(f"  - stage3_evaluation/top5_candidates/")

@@ -53,7 +53,7 @@ def run_esmfold_batch(fasta_dir, output_dir, batch_size=5):
                 else:
                     f.write(line)
 
-    print(f"✓ ESMFold: {len(fasta_files)} structures predicted")
+    print(f"[OK] ESMFold: {len(fasta_files)} structures predicted")
     return len(fasta_files)
 
 num_predicted = run_esmfold_batch(
@@ -142,7 +142,7 @@ def validate_structures(esmfold_dir, output_csv, threshold_plddt=80, threshold_r
     df_results.to_csv(output_csv, index=False)
 
     passed_count = len(df_results[df_results['passes']])
-    print(f"✓ Validation: {passed_count}/{len(results)} structures passed")
+    print(f"[OK] Validation: {passed_count}/{len(results)} structures passed")
     print(f"  Filters: pLDDT ≥ {threshold_plddt}, RMSD < {threshold_rmsd}")
 
     return df_results
@@ -172,5 +172,5 @@ log = {
 with open("results/stage2_log.json", 'w') as f:
     json.dump(log, f, indent=2)
 
-print(f"\n✅ Stage 2 Complete: {len(df_validated[df_validated['passes']])} structures validated")
+print(f"\n[SUCCESS] Stage 2 Complete: {len(df_validated[df_validated['passes']])} structures validated")
 print(f"Next: PRODIGY binding prediction (stage3_evaluation.py)")

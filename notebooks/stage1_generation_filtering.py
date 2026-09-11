@@ -69,7 +69,7 @@ def run_rfdiffusion(hotspot_residues_txt, output_dir, num_designs=30, inference_
             shell=True, check=False
         )
 
-    print(f"✓ RFDiffusion: {num_designs} backbones generated")
+    print(f"[OK] RFDiffusion: {num_designs} backbones generated")
     return num_designs
 
 run_rfdiffusion(
@@ -110,7 +110,7 @@ def run_mpnn_batch(backbone_dir, output_dir, num_seq_per_target=1):
             f.write(f">{sequences[-1]['id']}\n{sequence}\n")
 
     df = pd.DataFrame(sequences)
-    print(f"✓ ProteinMPNN: {len(df)} sequences designed")
+    print(f"[OK] ProteinMPNN: {len(df)} sequences designed")
 
     # Filter: top 70% by MPNN score
     df_top = df.sort_values('mpnn_score', ascending=False).iloc[:int(len(df)*0.7)]
@@ -174,8 +174,10 @@ log = {
     "filtered_sequences": passed
 }
 
+from pathlib import Path
+Path("results").mkdir(exist_ok=True)
 with open("results/stage1_log.json", 'w') as f:
     json.dump(log, f, indent=2)
 
-print(f"\n✅ Stage 1 Complete: {passed} sequences ready for Stage 2")
+print(f"\n[SUCCESS] Stage 1 Complete: {passed} sequences ready for Stage 2")
 print(f"Next: ESMFold structure prediction (stage2_generation_validation.py)")
