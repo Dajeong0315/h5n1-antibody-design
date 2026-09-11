@@ -39,9 +39,10 @@ Thumbs.db
 !/stage1_generation/backbones/
 !/stage1_generation/filtered/
 /stage2_generation/
+# Track ONLY validation results, ignore predictions
+/stage2_verification/*
 !/stage2_verification/stage2_validated.csv
-!/stage2_verification/esmfold_outputs/
-!/stage2_verification/passed/
+!/stage2_verification/stage2_log.json
 /stage3_generation/
 /stage3_verification/*
 !/stage3_verification/complexes/
