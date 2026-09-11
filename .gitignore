@@ -1,0 +1,54 @@
+# Environment
+.env
+.env.local
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# Large files
+*.pdb
+!data/input/6A0Z.pdb
+*.pkl
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+/data/*
+!/data/input/
+!/data/epitope/
+/stage1_generation/*
+!/stage1_generation/backbones/
+!/stage1_generation/filtered/
+/stage2_generation/
+/stage2_verification/*
+!/stage2_verification/esmfold_outputs/
+!/stage2_verification/passed/
+/stage3_generation/
+/stage3_verification/*
+!/stage3_verification/complexes/
+/stage3_evaluation/*
+!/stage3_evaluation/top5_candidates/
+/results/*
+!/results/.gitkeep
+
+# Logs
+*.log

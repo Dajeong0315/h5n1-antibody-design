@@ -1,0 +1,12 @@
+# Local environment (Pre-Stage)
+biopython>=1.88
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Colab environment (Stages 1-3)
+# pip install torch torchvision torchaudio  # GPU-specific
+# pip install localcolabfold
+# pip install GitPython
+# pip install notion-client
+# pip install py3Dmol  # for structure visualization
