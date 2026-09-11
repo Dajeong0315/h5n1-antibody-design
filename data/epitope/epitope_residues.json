@@ -1,0 +1,163 @@
+{
+  "pdb_id": "6A0Z",
+  "epitope_residues": [
+    {
+      "residue": "A:131",
+      "distance": 4.21,
+      "bsa": 16.34,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:133",
+      "distance": 3.46,
+      "bsa": 61.57,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:134",
+      "distance": 4.41,
+      "bsa": 2.42,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:135",
+      "distance": 2.98,
+      "bsa": 19.56,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:136",
+      "distance": 3.46,
+      "bsa": 8.84,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:137",
+      "distance": 2.83,
+      "bsa": 8.71,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:138",
+      "distance": 4.77,
+      "bsa": 0.0,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:145",
+      "distance": 4.55,
+      "bsa": 2.28,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:153",
+      "distance": 3.78,
+      "bsa": 18.11,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:155",
+      "distance": 3.66,
+      "bsa": 15.7,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:156",
+      "distance": 2.99,
+      "bsa": 42.09,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:157",
+      "distance": 3.27,
+      "bsa": 7.25,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:158",
+      "distance": 2.91,
+      "bsa": 26.85,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:159",
+      "distance": 2.76,
+      "bsa": 57.85,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:160",
+      "distance": 4.43,
+      "bsa": 0.0,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:186",
+      "distance": 3.54,
+      "bsa": 15.42,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:187",
+      "distance": 2.75,
+      "bsa": 43.56,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:189",
+      "distance": 3.44,
+      "bsa": 61.64,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:190",
+      "distance": 3.73,
+      "bsa": 36.87,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:192",
+      "distance": 4.32,
+      "bsa": 15.7,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:193",
+      "distance": 2.77,
+      "bsa": 146.6,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:194",
+      "distance": 3.74,
+      "bsa": 30.19,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:196",
+      "distance": 4.54,
+      "bsa": 19.51,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:222",
+      "distance": 3.24,
+      "bsa": 79.81,
+      "is_hotspot": true
+    },
+    {
+      "residue": "A:226",
+      "distance": 3.54,
+      "bsa": 24.73,
+      "is_hotspot": false
+    },
+    {
+      "residue": "A:227",
+      "distance": 4.82,
+      "bsa": 15.02,
+      "is_hotspot": false
+    }
+  ],
+  "epitope_count": 26,
+  "hotspot_count": 9
+}
