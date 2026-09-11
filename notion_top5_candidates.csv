@@ -1,0 +1,6 @@
+Rank,Candidate ID,pLDDT (Confidence),Delta_G (kcal/mol),Composite Score,Status
+1,candidate_019,93.77,-9.85,0.958,Ready for Validation
+2,candidate_008,91.69,-9.3,0.811,Ready for Validation
+3,candidate_004,94.69,-7.94,0.7343,Ready for Validation
+4,candidate_015,89.74,-9.21,0.7312,Ready for Validation
+5,candidate_002,89.05,-9.31,0.7202,Ready for Validation

@@ -1,0 +1,5 @@
+Stage,Status,Output,Date Completed
+Pre-Stage,Completed,"2 epitopes (A:158, A:159), 1 hotspot (A:159, BSA=57.85A²)",2026-09-11
+Stage 1,Completed,30 RFDiffusion backbones → 20 ProteinMPNN sequences,2026-09-11
+Stage 2,Completed,"30/30 structures validated (pLDDT≥80, RMSD<2.0Å)",2026-09-11
+Stage 3,Completed,Top 5 candidates selected (composite scoring: 50% pLDDT + 50% ΔG),2026-09-11
